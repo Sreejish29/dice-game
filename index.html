@@ -50,11 +50,13 @@
 
       <br>
 
-        <h2 class="display-4 text-center" style="color: #d2fafb; font-family: 'Courgette', cursive;">Welcome To Dice Game</h2>
+        <!-- <hr class="hr1"> -->
+        <h2 class="display-4 text-center d-block" style="color: #d2fafb; font-family: 'Courgette', cursive;">Welcome To Dice Game</h2>
+        <!-- <hr class="hr2"> -->
 
         <br><br>
 
-        <h4 class="display-4 text-center" style="color: #d2fafb;">Let's Play</h4>
+        <h3 class="display-5 text-center" style="color: #d2fafb;">Let's Play</h3>
 
         <br><br>
 
@@ -86,7 +88,7 @@
     
         </div>
 
-        <br>
+        <br><br><br>
 
         <div class="col-lg-12">
 
@@ -94,7 +96,7 @@
 
         </div>
 
-        <br><br>
+        <br><br><br><br>
 
     </div>
 
@@ -117,15 +119,15 @@
 
             if(random1 > random2)
             {
-                document.querySelectorAll("h4")[0].innerHTML = "Player1 Won!";
+                document.querySelectorAll("h3")[0].innerHTML = "Player1 Won!";
             }
             else if(random1 < random2)
             {
-                document.querySelectorAll("h4")[0].innerHTML = "Player2 Won!";
+                document.querySelectorAll("h3")[0].innerHTML = "Player2 Won!";
             }
             else
             {
-                document.querySelectorAll("h4")[0].innerHTML = "Draw Match!";
+                document.querySelectorAll("h3")[0].innerHTML = "Draw Match!";
             }
        }
 
